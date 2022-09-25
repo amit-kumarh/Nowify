@@ -5,6 +5,7 @@
       class="now-playing"
       :class="getNowPlayingClass()"
     >
+      <h1 class="now-playing__track">Now Playing on the Dance Floor</h1>
       <div class="now-playing__cover">
         <img
           :src="player.trackAlbum.image"
